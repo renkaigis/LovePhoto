@@ -47,11 +47,29 @@
 
 		.item {
 			width: 500px;
-			height: 50px;
+			/* height: 50px; */
 			margin: 0 auto;
 			text-align: center;
 			font-size: 40px;
 			color: hotpink;
+		}
+
+		.item .time {
+			height: 50px;
+		}
+
+		@media (max-width: 540px) {
+			.item {
+				width: 300px;
+			}
+
+			h1 {
+				margin: 10px auto 50px auto;
+			}
+
+			.item .time {
+				/* visibility: hidden; */
+			}
 		}
 
 		strong {
@@ -61,8 +79,19 @@
 			border-radius: 4px;
 		}
 
-		.day_sty {
+		.day_sty strong {
 			background-color: rgb(252, 92, 92);
+
+		}
+
+		.day_sty {
+			margin-bottom: 50px;
+		}
+
+		.love-pic {
+			margin: 20px;
+			text-align: center;
+			padding-top: 30px;
 		}
 	</style>
 
@@ -141,14 +170,17 @@
 
 		<!--////////////////////////////////////Container-->
 		<section id="container">
-			<div class="wrap-container">
+			<div class="wrap-about">
 				<!-----------------Content-Box-------------------->
 				<h1>我们相恋了</h1>
 				<div class="item">
-					<strong class="day_sty"><span class="day">00</span>天</strong>
-					<strong><span class="hour">00</span>时</strong>
-					<strong><span class="min">00</span>分</strong>
-					<strong><span class="second">00</span>秒</strong>
+					<div class="day_sty"><strong><span class="day">00</span>天</strong>
+					</div>
+					<div class="time">
+						<strong><span class="hour">00</span>时</strong>
+						<strong><span class="min">00</span>分</strong>
+						<strong><span class="second">00</span>秒</strong>
+					</div>
 				</div>
 				<script>
 
@@ -188,29 +220,30 @@
 				</script>
 			</div>
 
-			<div class="wrap-container">
+
+			<div class="wrap-about">
 				<!-----------------Content-Pic-------------------->
-				<div class="zerogrid" style="text-align: center;padding-top: 30px;">
+				<div class="love-pic">
 					<img src="images/love.jpg" width="800px" />
 				</div>
 			</div>
-		</section>
-		<!--////////////////////////////////////Footer-->
-		<footer>
-			<div class="zerogrid wrap-footer">
-				<div class="row">
-					<div class="bottom-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-				</div>
-				<div class="copyright">
-					Copyright &copy; 2021. Kai & Ru All rights reserved.<a target="_blank"
-						href="http://renkaigis.com"></a>
+	</div>
+	</section>
+	<!--////////////////////////////////////Footer-->
+	<footer>
+		<div class="zerogrid wrap-footer">
+			<div class="row">
+				<div class="bottom-social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
 				</div>
 			</div>
-		</footer>
+			<div class="copyright">
+				Copyright &copy; 2021. Kai & Ru All rights reserved.<a target="_blank" href="http://renkaigis.com"></a>
+			</div>
+		</div>
+	</footer>
 	</div>
 </body>
 
