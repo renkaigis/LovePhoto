@@ -76,6 +76,7 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
 html, body {width:100%; padding:0; margin:0;}
 body {font: 14px/25px Arial, Helvetica, sans-serif;font-family: 'Teko', sans-serif;background: #fff;color: #666;font-size: 19px;line-height: 1.6em;letter-spacing: .2px;}
 body .wrap-body{}
+body h2.entry-title{font-family: Georgia, 'Times New Roman', Times, serif}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------Top-Site----------------------------------- */
@@ -134,27 +135,29 @@ p.site-description{margin: 0;font-size: 16px;}
 
 
 /* ---Article--- */
-.single-post{}
+.single-post{width: 1000px;}
+@media only screen and (max-width: 767px) {.single-post{width: 100%;}}
+
 .single-post .wrap-post, .comments-are, .contact-form {background: #ff69b42b;padding:30px; position: relative;margin: 50px 0 ;}
 article.single-post{border-bottom: none; padding-bottom: 0;}
 article.single-post .wrap-post, .comments-are {padding:30px 20px; position: relative;margin: 50px 0 ;}
-article{background: #ffffff; color: #3F3F3F; margin: 30px 0 40px;border-bottom: 1px solid #e1e1e1;padding: 0 30px 50px;}
+article{background: #ffffff; color: #3F3F3F; margin: 30px 0 40px;border-bottom: 1px solid #e1e1e1;padding: 0 30px 10px;}
 article:last-child{border-bottom: none;}
 article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
-article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 10px;}
+article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 30px;}
 article .post-thumbnail-wrap img {}
 article h2.entry-title{font-size: 53px;margin: 10px 0 0;font-weight: 300;letter-spacing: 2px;line-height: 1.1;}
 article h2.entry-title a{color: hotpink;}
 article h2.entry-title a:hover{color: #555}
 article .l-tags{text-align: center; font-size: 11px;}
 
-article .entry-header{margin-bottom: 30px;}
+article .entry-header{margin-bottom: 10px;}
 article.single-post .entry-header{margin-bottom: 30px;text-align: center;}
-article.single-post .entry-header h1.entry-title{font-family: Garamond;font-size: 58px;line-height: 30px;letter-spacing: 2px;font-weight: 300;margin: 0;margin-bottom: 0;line-height: 1.1}
+article.single-post .entry-header h1.entry-title{font-family: Georgia;font-size: 45px;line-height: 30px;letter-spacing: 0px;font-weight: 300;margin: 0;margin-bottom: 0;line-height: 1.1}
 article.single-post .entry-header h1.entry-title a {color: #575756;margin: 0;}
 article .entry-title-blog a:hover {color: #628d7c;}
 
-article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;padding-top: 10px;display: block;}
+article .entry-header .time {font-family: "Teko",Monospace,"Merriweather",Georgia;color: #888;letter-spacing: 1px;font-size: 17px;padding-bottom: 10px;padding-top: 10px;display: block;}
 article .entry-header .cat-links {font-size: 17px;color: #7fcaad;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;display: block;}
 
 article .entry-header .entry-meta{color: #888;font-size: 17px;}
@@ -221,7 +224,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------Portfolio Box--------------------------------- */
 /* ---------------------------------------------------------------------------- */	
-.portfolio-box {display: block;position: relative;margin: 0 auto 30px;overflow: hidden;}
+.portfolio-box {display: block;position: relative;margin: 0 auto 0px;overflow: hidden;}
 .portfolio-box:before{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-top:12px solid hotpink;border-bottom:12px solid hotpink;transform:scale(0,1);-moz-transform:scale(0,1);-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
 .portfolio-box:after{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-left:12px solid hotpink;border-right:12px solid hotpink;transform:scale(1,0);-moz-transform:scale(1,0);-webkit-transform:scale(1,0);-ms-transform:scale(1,0);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
 .portfolio-box:hover:before{transform:scale(1,1);-moz-transform:scale(1,1);-webkit-transform:scale(1,1);-ms-transform:scale(1,1);}
@@ -245,8 +248,20 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 15px;
     }
+
 }
 @media(max-width:768px) {
 	.portfolio-box {max-width: 350px}
+
+    article.single-post .entry-header h1.entry-title{
+        font-size: 30px;
+    }
+
+    article .entry-header .time {font-size: 12px;padding-bottom: 0px;padding-top: 0px;display: block;}
+    article .entry-header .cat-links {font-size: 12px;text-transform: uppercase;letter-spacing: 1px;padding-top: 0px;display: block;}
+
+    article.single-post .entry-header{
+        margin-bottom: 15px;
+    }
 }
 
