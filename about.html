@@ -11,7 +11,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>LovePhoto - Kai & Ru</title>
+	<title>About - Kai & Ru</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<meta name="description" content="">
 	<meta name="author" content="Kai & Ru">
@@ -35,6 +35,36 @@
 
 	<!-- Owl Carousel Assets -->
 	<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+
+	<style>
+		h1 {
+			text-align: center;
+			width: 250px;
+			margin: 100px auto 50px auto;
+			color: purple;
+			font-weight: 900;
+		}
+
+		.item {
+			width: 500px;
+			height: 50px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 40px;
+			color: hotpink;
+		}
+
+		strong {
+			background-color: hotpink;
+			padding: 0 10px;
+			color: #fff;
+			border-radius: 4px;
+		}
+
+		.day_sty {
+			background-color: rgb(252, 92, 92);
+		}
+	</style>
 
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -101,9 +131,9 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href='about.html'><span>About</span></a></li>
+							<li class="active"><a href='about.html'><span>About</span></a></li>
 							<li><a href='archive.html'><span>Blog</span></a></li>
-							<li class='last active'><a href='contact.html'><span>Contacts</span></a></li>
+							<li class='last'><a href='contact.html'><span>Contacts</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -114,52 +144,49 @@
 		<section id="container">
 			<div class="wrap-container">
 				<!-----------------Content-Box-------------------->
-				<section class="content-box zerogrid">
-					<div class="row wrap-box">
-						<!--Start Box-->
+				<h1>我们相恋了</h1>
+				<div class="item">
+					<strong class="day_sty"><span class="day">00</span>天</strong>
+					<strong><span class="hour">00</span>时</strong>
+					<strong><span class="min">00</span>分</strong>
+					<strong><span class="second">00</span>秒</strong>
+				</div>
+				<script>
 
-						<!--Start Map-->
-						<!-- <div id="map" style="height: 350px;"></div> -->
-						<!--End Map-->
+					var endTime = new Date("2020-1-22");
+					var dayel = document.querySelector(".day");
+					var hourel = document.querySelector(".hour");
+					var minel = document.querySelector(".min");
+					var secondel = document.querySelector(".second");
 
-						<div class="contact-form">
-							<h3 class="t-center">Contact Form</h3>
-							<div id="contact_form">
-								<form name="form1" id="ff" method="post" action="contact.php">
-									<label class="row">
-										<div class="col-1-3">
-											<div class="wrap-col">
-												<input type="text" name="name" id="name" placeholder="Enter name"
-													required="required" />
-											</div>
-										</div>
-										<div class="col-1-3">
-											<div class="wrap-col">
-												<input type="email" name="email" id="email" placeholder="Enter email"
-													required="required" />
-											</div>
-										</div>
-										<div class="col-1-3">
-											<div class="wrap-col">
-												<input type="text" name="subject" id="subject" placeholder="Subject"
-													required="required" />
-											</div>
-										</div>
-									</label>
-									<label class="row">
-										<div class="wrap-col">
-											<textarea name="message" id="message" class="form-control" rows="4"
-												cols="25" required="required" placeholder="Message"></textarea>
-										</div>
-									</label>
-									<center><input class="sendButton" type="submit" name="Submit" value="Submit">
-									</center>
-								</form>
-							</div>
-						</div>
-					</div>
-				</section>
 
+					//计算
+					setInterval(
+						function () {
+							// 获取现在的时间
+							var nowTime = new Date();
+							// 相差的时间
+							var stamp = endTime - nowTime;
+							// console.log(stamp);
+							var day_ms = 24 * 60 * 60 * 1000;
+							var hour_ms = 60 * 60 * 1000;
+							var min_ms = 60 * 1000;
+							var day = Math.floor(stamp / day_ms * -1);
+							var hour = Math.floor((stamp % day_ms) / hour_ms * -1);
+							var min = Math.floor((stamp % hour_ms) / min_ms * -1);
+							var s = Math.floor((stamp % min_ms * -1) / 1000);
+
+							// console.log(day,hour,min,s);
+							dayel.innerText = wrap(day);
+							hourel.innerText = wrap(hour);
+							minel.innerText = wrap(min);
+							secondel.innerText = wrap(s);
+						}, 1000);
+
+					function wrap(n) {
+						return n >= 10 ? n : "0" + n;
+					}
+				</script>
 			</div>
 		</section>
 		<!--////////////////////////////////////Footer-->
@@ -181,9 +208,8 @@
 					Copyright &copy; 2021. Kai & Ru All rights reserved.<a target="_blank"
 						href="http://renkaigis.com"></a>
 				</div>
+			</div>
 		</footer>
-
-
 	</div>
 </body>
 
