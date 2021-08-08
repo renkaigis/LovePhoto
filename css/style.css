@@ -151,7 +151,7 @@ article.single-post .entry-header h1.entry-title{font-family: Garamond;font-size
 article.single-post .entry-header h1.entry-title a {color: #575756;margin: 0;}
 article .entry-title-blog a:hover {color: #628d7c;}
 
-article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
+article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;padding-top: 10px;display: block;}
 article .entry-header .cat-links {font-size: 17px;color: #7fcaad;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;display: block;}
 
 article .entry-header .entry-meta{color: #888;font-size: 17px;}
@@ -163,7 +163,7 @@ article .entry-header .tags-links a{padding: 3px 8px 1px;background: hotpink;lin
 article.single-post .entry-header .tags-links {margin-bottom: 70px;}
 
 
-article .entry-content{text-align: left;}
+article .entry-content{text-align: left;padding-bottom: 10px;}
 article.single-post .entry-content{ padding: 40px 120px;}
 @media  (max-width: 540px){
 	article.single-post .entry-content{ padding: 30px;}
@@ -171,6 +171,9 @@ article.single-post .entry-content{ padding: 40px 120px;}
 article .entry-content p{ font-family: Garamond;color: #161010;font-size: 21px;font-weight: 500;}
 article .entry-content blockquote {border-left: 3px solid #1c7791;margin: 0 50px;font-style: italic;color: #666;padding-left: 20px;}
 article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;list-style-type: circle;font-size: 21px;}
+
+.readmore{text-align: right; }
+
 
 .comments-are textarea {height:170px;}
 
