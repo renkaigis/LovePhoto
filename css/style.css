@@ -95,9 +95,11 @@ body .wrap-body{}
 ul.link li{padding: 0;margin: 0;}
 
 @media  (max-width: 767px){
-	#top ul.top-link,
-	#top .top-search	{text-align: center;}
+	#top ul.top-link,#top .top-search	{text-align: center;}
+    #top .col-1-3	{visibility: hidden;float: none;}
 	#top .top-search form{margin: 30px auto 0;}
+    #top .row{height: 10px;}
+    a.site-branding {margin-bottom: 20px;margin-top: 20px;}
 }
 
 /* ---------------------------------------------------------------------------- */
