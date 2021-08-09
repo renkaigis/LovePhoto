@@ -204,7 +204,7 @@
 
 				//计算
 				setInterval(
-					function () {
+					$(function () {
 						// 获取现在的时间
 						var nowTime = new Date();
 						// 相差的时间
@@ -223,7 +223,7 @@
 						hourel.innerText = wrap(~~hour);
 						minel.innerText = wrap(~~min);
 						secondel.innerText = wrap(~~s);
-					}, 1000);
+					}), 1000);
 
 				function wrap(n) {
 					return n >= 10 ? n : "0" + n;
