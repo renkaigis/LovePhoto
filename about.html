@@ -219,10 +219,10 @@
 						var s = Math.floor((stamp % min_ms * -1) / 1000);
 
 						// console.log(day,hour,min,s);
-						dayel.innerText = wrap(day);
-						hourel.innerText = wrap(hour);
-						minel.innerText = wrap(min);
-						secondel.innerText = wrap(s);
+						dayel.innerText = wrap(~~day);
+						hourel.innerText = wrap(~~hour);
+						minel.innerText = wrap(~~min);
+						secondel.innerText = wrap(~~s);
 					}, 1000);
 
 				function wrap(n) {
