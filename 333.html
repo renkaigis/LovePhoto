@@ -123,7 +123,7 @@
     <!-- 计时器 -->
     <script>
         function timer() {
-            var start = new Date(2020, 06, 31, 13, 14, 00); // 2020.07.31 13:14:00
+            var start = new Date("2020-1-22"); // 2020.07.31 13:14:00
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
@@ -177,7 +177,7 @@
     </script>
 
     <!-- 情话接口 -->
-    <script>
+    <!-- <script>
         //进入页面时请求
         $.ajax({
             url: 'php/love.php',
@@ -230,19 +230,19 @@
                 }
             });
         });
-    </script>
+    </script> -->
 
     <!-- Valine 评论系统； 由 LeanCloud 管理数据 -->
-    <script>
+    <!-- <script>
         new Valine({
             el: '#vcomments',
             appId: 'sYcjVkIftvQAncv29cb3gibh-gzGzoHsz',
             appKey: '3T0ONnPd2h2koGGdHvCukScS'
         })
-    </script>
+    </script> -->
 
     <!-- 底部波浪 -->
-    <script src="php/wave.php"></script>
+    <!-- <script src="php/wave.php"></script>
 
     <script>
         var _hmt = _hmt || [];
@@ -252,7 +252,7 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-    </script>
+    </script> -->
 
 </body>
 
