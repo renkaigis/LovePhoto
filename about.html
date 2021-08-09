@@ -182,42 +182,7 @@
 						<strong><span class="second">00</span>秒</strong>
 					</div>
 				</div>
-				<script>
 
-					var endTime = new Date("2020-1-22");
-					var dayel = document.querySelector(".day");
-					var hourel = document.querySelector(".hour");
-					var minel = document.querySelector(".min");
-					var secondel = document.querySelector(".second");
-
-
-					//计算
-					setInterval(
-						function () {
-							// 获取现在的时间
-							var nowTime = new Date();
-							// 相差的时间
-							var stamp = endTime - nowTime;
-							// console.log(stamp);
-							var day_ms = 24 * 60 * 60 * 1000;
-							var hour_ms = 60 * 60 * 1000;
-							var min_ms = 60 * 1000;
-							var day = Math.floor(stamp / day_ms * -1);
-							var hour = Math.floor((stamp % day_ms) / hour_ms * -1);
-							var min = Math.floor((stamp % hour_ms) / min_ms * -1);
-							var s = Math.floor((stamp % min_ms * -1) / 1000);
-
-							// console.log(day,hour,min,s);
-							dayel.innerText = wrap(day);
-							hourel.innerText = wrap(hour);
-							minel.innerText = wrap(min);
-							secondel.innerText = wrap(s);
-						}, 1000);
-
-					function wrap(n) {
-						return n >= 10 ? n : "0" + n;
-					}
-				</script>
 			</div>
 
 
@@ -227,6 +192,43 @@
 					<img src="http://pic.renkaigis.com/lovephoto/love.jpg" width="800px" />
 				</div>
 			</div>
+
+			<script type="text/javascript">
+
+				var endTime = new Date("2020-1-22");
+				var dayel = document.querySelector(".day");
+				var hourel = document.querySelector(".hour");
+				var minel = document.querySelector(".min");
+				var secondel = document.querySelector(".second");
+
+
+				//计算
+				setInterval(
+					function () {
+						// 获取现在的时间
+						var nowTime = new Date();
+						// 相差的时间
+						var stamp = endTime - nowTime;
+						// console.log(stamp);
+						var day_ms = 24 * 60 * 60 * 1000;
+						var hour_ms = 60 * 60 * 1000;
+						var min_ms = 60 * 1000;
+						var day = Math.floor(stamp / day_ms * -1);
+						var hour = Math.floor((stamp % day_ms) / hour_ms * -1);
+						var min = Math.floor((stamp % hour_ms) / min_ms * -1);
+						var s = Math.floor((stamp % min_ms * -1) / 1000);
+
+						// console.log(day,hour,min,s);
+						dayel.innerText = wrap(day);
+						hourel.innerText = wrap(hour);
+						minel.innerText = wrap(min);
+						secondel.innerText = wrap(s);
+					}, 1000);
+
+				function wrap(n) {
+					return n >= 10 ? n : "0" + n;
+				}
+			</script>
 	</div>
 	</section>
 	<!--////////////////////////////////////Footer-->
