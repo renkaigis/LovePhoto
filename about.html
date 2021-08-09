@@ -201,7 +201,6 @@
 				var minel = document.querySelector(".min");
 				var secondel = document.querySelector(".second");
 
-
 				//计算
 				setInterval(
 					$(function () {
@@ -223,7 +222,8 @@
 						hourel.innerText = wrap(~~hour);
 						minel.innerText = wrap(~~min);
 						secondel.innerText = wrap(~~s);
-					}), 1000);
+					})
+					, 1000);
 
 				function wrap(n) {
 					return n >= 10 ? n : "0" + n;

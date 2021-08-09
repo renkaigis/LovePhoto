@@ -19,5 +19,10 @@ function timer() {
     document.getElementById('m').innerHTML = m;
     document.getElementById('s').innerHTML = s;
 }
-timer();
-setInterval(timer, 1000);
+
+$(function () {
+    timer();
+})
+$(function () {
+    setInterval(timer, 1000);
+})
