@@ -164,7 +164,7 @@ article:last-child{border-bottom: none;}
 article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
 article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 30px;}
 article .post-thumbnail-wrap img {}
-article h2.entry-title{font-size: 40px;margin: 10px 0 0;font-weight: 900;letter-spacing: 1px;line-height: 1;}
+article h2.entry-title{font-size: 35px;margin: 10px 0 0;font-weight: 900;letter-spacing: 1px;line-height: 1;}
 article h2.entry-title a{color: hotpink;}
 article h2.entry-title a:hover{color: #555}
 article .l-tags{text-align: center; font-size: 11px;}
