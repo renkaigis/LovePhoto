@@ -17,4 +17,10 @@ figure .img-1-1{
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
 
+.love-pic {
+    margin: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
 
