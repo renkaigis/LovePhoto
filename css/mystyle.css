@@ -7,12 +7,22 @@ figure .img-1-1{
 }
 
 
-.image {
+/* .image {
     padding: 10px;
     border: 1px solid #000;
     -moz-box-shadow: 3px 3px 4px #000;
     -webkit-box-shadow: 3px 3px 4px #000;
     box-shadow: 3px 3px 4px #000;
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+} */
+
+.image {
+    padding: 10px;
+    border: 1px solid hotpink;
+    -moz-box-shadow: 3px 3px 4px hotpink;
+    -webkit-box-shadow: 3px 3px 4px hotpink;
+    box-shadow: 5px 5px 6px hotpink;
     background: #fff;
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
