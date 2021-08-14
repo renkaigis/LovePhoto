@@ -162,8 +162,8 @@ article.single-post .wrap-post, .comments-are {padding:30px 20px; position: rela
 article{background: #ffffff; color: #3F3F3F; margin: 30px 0 40px;border-bottom: 1px solid pink;padding: 0 30px 10px;}
 article:last-child{border-bottom: none;}
 article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
-article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 30px;}
-article .post-thumbnail-wrap img {}
+article .details-image {text-align: center;width: 100%;margin-bottom: 30px;}
+article .details-image img {}
 article h2.entry-title{font-size: 35px;margin: 10px 0 0;font-weight: 900;letter-spacing: 1px;line-height: 1;}
 article h2.entry-title a{color: hotpink;}
 article h2.entry-title a:hover{color: #555}
