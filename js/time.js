@@ -15,7 +15,7 @@ function timer() {
         s = "0" + s;
     }
     document.getElementById('d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
-    document.getElementById('h').innerHTML = h;
+    document.getElementById('h').innerHTML = h + 8;
     document.getElementById('m').innerHTML = m;
     document.getElementById('s').innerHTML = s;
 }
@@ -37,7 +37,7 @@ function show_date_time() {
     minsold = Math.floor((e_hrsold - hrsold) * 60);
     seconds = Math.floor((e_minsold - minsold) * 60);
     document.getElementById('d').innerHTML = daysold;
-    document.getElementById('h').innerHTML = hrsold;
+    document.getElementById('h').innerHTML = hrsold + 8;
     document.getElementById('m').innerHTML = minsold;
     document.getElementById('s').innerHTML = seconds;
 }
