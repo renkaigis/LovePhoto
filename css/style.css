@@ -231,7 +231,7 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 #contact_form, #comment {padding:20px 10px 0;}
 
 .contact-form{margin-top: 0;}
-.contact-form h3{font-size: 57px; font-weight: 400;}
+.contact-form h3{font-size: 57px; font-weight: 400;color: purple;}
 
 #ff .sendButton , #comment_form .sendButton {cursor:pointer;background-color:#575756;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:20%;color:#ffffff;margin-top: 50px;}
 #ff .sendButton:hover , #comment_form .sendButton:hover{opacity: 0.8;}
