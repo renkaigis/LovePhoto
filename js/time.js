@@ -1,6 +1,6 @@
 function timer() {
     window.setTimeout("show_date_time()", 1000);
-    var start = new Date("2020-01-22");
+    var start = new Date("2020-01-22 00:00:00");
     var t = new Date().getTime() - start;
     var h = ~~(t / 1000 / 60 / 60 % 24);
     if (h < 10) {
@@ -23,7 +23,7 @@ timer();
 
 function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
-    BirthDay = new Date("2020-01-22");//这个日期是可以修改的
+    BirthDay = new Date("2020-01-22 00:00:00");//这个日期是可以修改的
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
     sectimeold = timeold / 1000
