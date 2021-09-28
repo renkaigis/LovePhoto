@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Teko:300,400');
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+/* @import url('https://fonts.googleapis.com/css?family=Teko:300,400');
+@import url(https://fonts.googleapis.com/css?family=Oswald); */
+
+@import "local.google.fonts.css";
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Reset----------------------------------- */
 /* ---------------------------------------------------------------------------- */
