@@ -136,7 +136,8 @@ a.search-submit-button {background: #fff;border-bottom: 1px solid #eeeeee;border
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
 /* header{background: hotpink;padding: 40px 0 55px;margin-bottom: 70px;} */
-header{background: hotpink;padding: 10px 0 25px;margin-bottom: 30px;}
+/* header{background: hotpink;padding: 10px 0 25px;margin-bottom: 30px;} */
+header{background: gray;padding: 10px 0 25px;margin-bottom: 30px;}
 
 a.site-branding {text-align: center;color: #888;margin-bottom: 45px;height: auto;padding: 0;display: inline-block;}
 .main-header h1.site-title, .main-header .site-title a {letter-spacing: 2px;color: hotpink;margin: 0;text-transform: uppercase;font-size: 39px;font-weight: 300;line-height: 1;}
