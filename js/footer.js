@@ -19,7 +19,8 @@ document.writeln("					<a href=\'https://beian.miit.gov.cn/\' target=\'_blank\'"
 document.writeln("						style=\'color: hotpink;font-size: 80%;font-weight: normal;\'>陕ICP备17015858号</a>");
 document.writeln("				</div>");
 document.writeln("				<div class=\'copyright\'>");
-document.writeln("					Copyright &copy; 2021. Kai & Ru All rights reserved.<a target=\'_blank\'");
+document.writeln("					Copyright &copy; 2021. Kai All rights reserved.<a target=\'_blank\'");
+// document.writeln("					Copyright &copy; 2021. Kai & Ru All rights reserved.<a target=\'_blank\'");
 document.writeln("						href=\'http://renkaigis.com\'></a>");
 document.writeln("				</div>");
 document.writeln("		</footer>");
