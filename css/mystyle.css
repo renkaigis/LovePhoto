@@ -1,8 +1,8 @@
-figure .img-3-2{
+figure .img-3-2 {
     width: 500px;
 }
 
-figure .img-1-1{
+figure .img-1-1 {
     width: 550px;
 }
 
@@ -27,22 +27,17 @@ figure .img-1-1{
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
 
-.gray {
+/* .gray {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
-}
+} */
 
 .love-pic {
     margin: 20px;
     text-align: center;
     padding: 10px 0px;
 }
-
-
-
-
-
