@@ -16,7 +16,7 @@ document.writeln("					</div>");
 document.writeln("				</div>");
 document.writeln("				<div class=\'copyright\'>");
 document.writeln("					<a href=\'https://beian.miit.gov.cn/\' target=\'_blank\'");
-document.writeln("						style=\'color: hotpink;font-size: 80%;font-weight: normal;\'>陕ICP备17015858号</a>");
+document.writeln("						style=\'color: #C07AB8;font-size: 80%;font-weight: normal;\'>陕ICP备17015858号</a>");
 document.writeln("				</div>");
 document.writeln("				<div class=\'copyright\'>");
 document.writeln("					Copyright &copy; 2021. Kai All rights reserved.<a target=\'_blank\'");

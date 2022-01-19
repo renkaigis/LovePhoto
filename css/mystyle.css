@@ -19,10 +19,10 @@ figure .img-1-1 {
 
 .image {
     padding: 10px;
-    border: 1px solid hotpink;
-    -moz-box-shadow: 3px 3px 4px hotpink;
-    -webkit-box-shadow: 3px 3px 4px hotpink;
-    box-shadow: 5px 5px 6px hotpink;
+    border: 1px solid #C07AB8;
+    -moz-box-shadow: 3px 3px 4px #C07AB8;
+    -webkit-box-shadow: 3px 3px 4px #C07AB8;
+    box-shadow: 5px 5px 6px #C07AB8;
     background: #fff;
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }

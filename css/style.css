@@ -32,7 +32,7 @@ html { -webkit-text-size-adjust: none;}
 img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
 
 a{color: #888;text-decoration: none;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;transition: all .2s ease-in-out;}
-a:hover {color: hotpink; text-decoration: none;}
+a:hover {color: #C07AB8; text-decoration: none;}
 
 h1, h2 	{font-size: 25px;line-height: 30px;}
 h3, h4	{font-size: 20px;line-height: 20px;}
@@ -140,17 +140,17 @@ ul.link li{padding: 0;margin: 0;}
 #form-container{max-width: 360px;text-align: center;}
 #searchtext {overflow: hidden;}
 
-a.search-submit-button {background: #fff;border-bottom: 1px solid #eeeeee;border-right: 1px solid #eeeeee;border-top: 1px solid #eeeeee;color: hotpink;display: block;float: right;padding: 10px;font-size: 17px;text-align: center;width: 45px;box-sizing: border-box;height: 42px;}
+a.search-submit-button {background: #fff;border-bottom: 1px solid #eeeeee;border-right: 1px solid #eeeeee;border-top: 1px solid #eeeeee;color: #C07AB8;display: block;float: right;padding: 10px;font-size: 17px;text-align: center;width: 45px;box-sizing: border-box;height: 42px;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Header--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-/* header{background: hotpink;padding: 40px 0 55px;margin-bottom: 70px;} */
-header{background: hotpink;padding: 10px 0 25px;margin-bottom: 30px;}
+/* header{background: #C07AB8;padding: 40px 0 55px;margin-bottom: 70px;} */
+header{background: #C07AB8;padding: 10px 0 25px;margin-bottom: 30px;}
 /* header{background: gray;padding: 10px 0 25px;margin-bottom: 30px;} */
 
 a.site-branding {text-align: center;color: #888;margin-bottom: 45px;height: auto;padding: 0;display: inline-block;}
-.main-header h1.site-title, .main-header .site-title a {letter-spacing: 2px;color: hotpink;margin: 0;text-transform: uppercase;font-size: 39px;font-weight: 300;line-height: 1;}
+.main-header h1.site-title, .main-header .site-title a {letter-spacing: 2px;color: #C07AB8;margin: 0;text-transform: uppercase;font-size: 39px;font-weight: 300;line-height: 1;}
 p.site-description{margin: 0;font-size: 16px;}
 
 /* ---------------------------------------------------------------------------- */
@@ -178,7 +178,7 @@ article:after, article:before{clear: both; content: '\0020'; display: block; vis
 article .details-image {text-align: center;width: 100%;margin-bottom: 30px;}
 article .details-image img {}
 article h2.entry-title{font-size: 35px;margin: 10px 0 0;font-weight: 900;letter-spacing: 1px;line-height: 1;}
-article h2.entry-title a{color: hotpink;}
+article h2.entry-title a{color: #C07AB8;}
 article h2.entry-title a:hover{color: #555}
 article .l-tags{text-align: center; font-size: 11px;}
 
@@ -193,10 +193,10 @@ article .entry-header .cat-links {font-size: 17px;color: #7fcaad;text-transform:
 
 article .entry-header .entry-meta{color: #888;font-size: 17px;}
 article .entry-header .entry-meta a {color: #888;}
-article .entry-header .entry-meta a:hover {color: hotpink;}
+article .entry-header .entry-meta a:hover {color: #C07AB8;}
 
 article .entry-header .tags-links {display: block;}
-article .entry-header .tags-links a{padding: 3px 8px 1px;background: hotpink;line-height: 20px;}
+article .entry-header .tags-links a{padding: 3px 8px 1px;background: #C07AB8;line-height: 20px;}
 article.single-post .entry-header .tags-links {margin-bottom: 70px;}
 
 
@@ -227,10 +227,10 @@ article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;lis
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Footer--------------------------------- */
 /* ---------------------------------------------------------------------------- */
-footer{text-align: center;padding: 40px 0;border-top: 1px solid hotpink;margin-top: 40px;}
+footer{text-align: center;padding: 40px 0;border-top: 1px solid #C07AB8;margin-top: 40px;}
 footer a{color:#444;font-weight: bold;}
 footer a:hover{color:#000;}
-footer .wrap-footer{color: hotpink;}
+footer .wrap-footer{color: #C07AB8;}
 footer .wrap-footer ul li {margin-bottom: 5px;border-bottom: 1px solid #555;padding: 10px 0 15px;}
 footer i.fa{font-size: 22px;margin-right: 8px;}
 footer .bottom-social{margin-bottom: 20px;}
@@ -265,8 +265,8 @@ footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
 /* ------------------------------Portfolio Box--------------------------------- */
 /* ---------------------------------------------------------------------------- */	
 .portfolio-box {display: block;position: relative;margin: 0 auto 0px;overflow: hidden;}
-.portfolio-box:before{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-top:12px solid hotpink;border-bottom:12px solid hotpink;transform:scale(0,1);-moz-transform:scale(0,1);-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
-.portfolio-box:after{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-left:12px solid hotpink;border-right:12px solid hotpink;transform:scale(1,0);-moz-transform:scale(1,0);-webkit-transform:scale(1,0);-ms-transform:scale(1,0);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
+.portfolio-box:before{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-top:12px solid #C07AB8;border-bottom:12px solid #C07AB8;transform:scale(0,1);-moz-transform:scale(0,1);-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
+.portfolio-box:after{z-index:1;content:"";position:absolute;left:0;right:0;top:0;bottom:0;border-left:12px solid #C07AB8;border-right:12px solid #C07AB8;transform:scale(1,0);-moz-transform:scale(1,0);-webkit-transform:scale(1,0);-ms-transform:scale(1,0);transition:all 0.4s ease-in-out 0s;-moz-transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
 .portfolio-box:hover:before{transform:scale(1,1);-moz-transform:scale(1,1);-webkit-transform:scale(1,1);-ms-transform:scale(1,1);}
 .portfolio-box:hover:after {transform:scale(1,1);-moz-transform:scale(1,1);-webkit-transform:scale(1,1);-ms-transform:scale(1,1);}
 
