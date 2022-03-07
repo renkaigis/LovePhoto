@@ -1,6 +1,12 @@
 # LovePhoto
 
-### Kai &amp; Ru - LovePhoto
+- 谨以此页面，记录我们爱情的点点滴滴…
+
+- 无限期停止更新…
+
+- 永生不过是场幻梦，唯吾所爱不朽。
+
+<!-- ### Kai &amp; Ru - LovePhoto
 
 - 我们相识于 2013 年的春天
 
@@ -8,4 +14,4 @@
 
 - 谨以此页面，记录我们爱情的点点滴滴
 
-### LovePhoto：[我们的爱](http://love.renkaigis.com)
+### LovePhoto：[我们的爱](http://love.renkaigis.com) -->
