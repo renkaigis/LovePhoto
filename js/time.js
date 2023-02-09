@@ -26,7 +26,7 @@
 function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
     // BirthDay = new Date("2020-01-22");//这个日期是可以修改的
-    BirthDay = new Date(2020, 0, 21, 16, 0, 0);
+    BirthDay = new Date(2020, 0, 22, 0, 0, 0);
     // BirthDay = new Date(2022, 0, 31, 0, 0, 0);
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
