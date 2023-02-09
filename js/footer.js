@@ -2,14 +2,14 @@ document.writeln("	<footer>");
 document.writeln("		<div class=\'zerogrid wrap-footer\'>");
 document.writeln("			<div class=\'row\'>");
 document.writeln("				<div class=\'bottom-social\'>");
-document.writeln("					<a href=\'http://renkaigis.com\' target=\'_blank\'><i class=\'fa fa-rss\' style=\'color: purple;\'></i></a>");
-document.writeln("					<a href=\'http://blog.renkaigis.com\' target=\'_blank\'><i class=\'fa fa-coffee\'");
+document.writeln("					<a href=\'http://renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-rss\' style=\'color: purple;\'></i></a>");
+document.writeln("					<a href=\'http://blog.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-coffee\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
 document.writeln("					<a href=\'https://github.com/renkaigis\' target=\'_blank\'><i class=\'fa fa-github-alt\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
-document.writeln("					<a href=\'http://resume.renkaigis.com\' target=\'_blank\'><i class=\'fa fa-heartbeat\'");
+document.writeln("					<a href=\'http://resume.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-heartbeat\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
-document.writeln("					<a href=\'http://photo.renkaigis.com\' target=\'_blank\'><i class=\'fa fa-camera-retro\'");
+document.writeln("					<a href=\'http://photo.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-camera-retro\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
 document.writeln("				</div>");
 document.writeln("			</div>");
@@ -24,7 +24,7 @@ document.writeln("				</a>");
 document.writeln("			</div>");
 document.writeln("");
 document.writeln("			<div class=\'copyright\'>");
-document.writeln("				Copyright &copy; 2022. Kai All rights reserved.<a target=\'_blank\' href=\'http://renkaigis.com\'></a>");
+document.writeln("				Copyright &copy; 2022-2023. Kai All rights reserved.<a target=\'_blank\' href=\'http://renkaigis.cn\'></a>");
 document.writeln("			</div>");
 document.writeln("	</footer>");
 
@@ -32,14 +32,14 @@ document.writeln("	</footer>");
 <div class='zerogrid wrap-footer'>
     <div class='row'>
         <div class='bottom-social'>
-            <a href='http://renkaigis.com' target='_blank'><i class='fa fa-rss' style='color: purple;'></i></a>
-            <a href='http://blog.renkaigis.com' target='_blank'><i class='fa fa-coffee'
+            <a href='http://renkaigis.cn' target='_blank'><i class='fa fa-rss' style='color: purple;'></i></a>
+            <a href='http://blog.renkaigis.cn' target='_blank'><i class='fa fa-coffee'
                     style='color: purple;'></i></a>
             <a href='https://github.com/renkaigis' target='_blank'><i class='fa fa-github-alt'
                     style='color: purple;'></i></a>
-            <a href='http://resume.renkaigis.com' target='_blank'><i class='fa fa-heartbeat'
+            <a href='http://resume.renkaigis.cn' target='_blank'><i class='fa fa-heartbeat'
                     style='color: purple;'></i></a>
-            <a href='http://photo.renkaigis.com' target='_blank'><i class='fa fa-camera-retro'
+            <a href='http://photo.renkaigis.cn' target='_blank'><i class='fa fa-camera-retro'
                     style='color: purple;'></i></a>
         </div>
     </div>
@@ -54,6 +54,6 @@ document.writeln("	</footer>");
     </div>
 
     <div class='copyright'>
-        Copyright &copy; 2022. Kai All rights reserved.<a target='_blank' href='http://renkaigis.com'></a>
+        Copyright &copy; 2022. Kai All rights reserved.<a target='_blank' href='http://renkaigis.cn'></a>
     </div>
 </footer> */}

@@ -14,4 +14,4 @@
 
 - 谨以此页面，记录我们爱情的点点滴滴
 
-### LovePhoto：[我们的爱](http://love.renkaigis.com) -->
+### LovePhoto：[我们的爱](http://love.renkaigis.cn) -->
