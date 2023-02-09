@@ -7,7 +7,7 @@ document.writeln("					<a href=\'http://blog.renkaigis.cn\' target=\'_blank\'><i
 document.writeln("							style=\'color: purple;\'></i></a>");
 document.writeln("					<a href=\'https://github.com/renkaigis\' target=\'_blank\'><i class=\'fa fa-github-alt\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
-document.writeln("					<a href=\'http://resume.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-heartbeat\'");
+document.writeln("					<a href=\'http://resume.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-id-card-o\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
 document.writeln("					<a href=\'http://photo.renkaigis.cn\' target=\'_blank\'><i class=\'fa fa-camera-retro\'");
 document.writeln("							style=\'color: purple;\'></i></a>");
@@ -24,7 +24,7 @@ document.writeln("				</a>");
 document.writeln("			</div>");
 document.writeln("");
 document.writeln("			<div class=\'copyright\'>");
-document.writeln("				Copyright &copy; 2022-2023. Kai All rights reserved.<a target=\'_blank\' href=\'http://renkaigis.cn\'></a>");
+document.writeln("				Copyright &copy; 2020-2023. Kai All rights reserved.<a target=\'_blank\' href=\'http://renkaigis.cn\'></a>");
 document.writeln("			</div>");
 document.writeln("	</footer>");
 
