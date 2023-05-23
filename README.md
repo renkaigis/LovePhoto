@@ -1,5 +1,9 @@
 # LovePhoto
 
+任凯 永远爱 薛金儒
+
+Kai Love Ru Forever.
+
 - 谨以此页面，记录我们爱情的点点滴滴…
 
 - 无限期停止更新…
