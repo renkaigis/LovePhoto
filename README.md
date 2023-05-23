@@ -12,7 +12,7 @@ Kai Love Ru Forever❤️.
 
 ---------
 
-Old Introduction ⬇️
+## *Old Introduction* ⬇️
 
 ### Kai &amp; Ru - LovePhoto
 
