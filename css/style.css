@@ -794,7 +794,11 @@ article.single-post .entry-content-note {
     }
 
     article.single-post .entry-content-note {
+<<<<<<< HEAD
         padding: 15px;
+=======
+        padding: 10px;
+>>>>>>> e2d6be7fb97d81b80b2649e863194b5776bcc7f4
     }
 
     .wrap-about {
