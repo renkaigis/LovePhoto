@@ -1,9 +1,13 @@
-figure .img-3-2 {
-    width: 500px;
+figure .img_3_2 {
+    width: 600px;
 }
 
-figure .img-1-1 {
-    width: 550px;
+figure .img_1_1 {
+    width: 650px;
+}
+
+figure .img_4_3 {
+    width: 750px;
 }
 
 
