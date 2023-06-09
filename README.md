@@ -4,7 +4,9 @@
 
 任凯 永远爱 薛金儒❤️
 
-Kai Love Ru Forever❤️.
+Kai Love Ru Forever❤️
+
+Kai Ren ❤️ Jinru Xue
 
 - 谨以此页面，记录我们爱情的点点滴滴…
 
