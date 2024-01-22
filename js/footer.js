@@ -24,7 +24,7 @@ document.writeln("				</a>");
 document.writeln("			</div>");
 document.writeln("");
 document.writeln("			<div class=\'copyright\'>");
-document.writeln("				Copyright &copy; 2020-2023. Kai & Ru All rights reserved.<a target=\'_blank\' href=\'https://renkaigis.cn\'></a>");
+document.writeln("				Copyright &copy; 2020-2024. Kai & Ru All rights reserved.<a target=\'_blank\' href=\'https://renkaigis.cn\'></a>");
 document.writeln("			</div>");
 document.writeln("	</footer>");
 
