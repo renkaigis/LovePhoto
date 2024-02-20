@@ -2,11 +2,11 @@
 
 ### LovePhoto：[我们的爱](https://love.renkaigis.cn)
 
-任凯 永远爱 薛金儒❤️
+任凯 永远爱 ***❤️
 
-Kai Love Ru Forever❤️
+Kai Love ** Forever❤️
 
-Kai Ren ❤️ Jinru Xue
+Kai Ren ❤️ ********
 
 - 谨以此页面，记录我们爱情的点点滴滴…
 
@@ -18,22 +18,11 @@ Kai Ren ❤️ Jinru Xue
 
 ## *Old Introduction* ⬇️
 
-### Kai &amp; Ru - LovePhoto
+### Kai &amp; ** - LovePhoto
 
 - 我们相识于 2013 年的春天
 
-- 我们的爱情开始于 2020 年 1 月 22 日
+- 我们的爱情开始于 **** 年 ** 月 ** 日
 
 - 谨以此页面，记录我们爱情的点点滴滴
 
-
-
-<!-- ### Kai &amp; Ru - LovePhoto
-
-- 我们相识于 2013 年的春天
-
-- 我们的爱情开始于 2020 年 1 月 22 日
-
-- 谨以此页面，记录我们爱情的点点滴滴
-
-### LovePhoto：[我们的爱](http://love.renkaigis.cn) -->
